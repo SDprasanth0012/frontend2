@@ -1,0 +1,77 @@
+:root {
+    --color-Yellow: hsl(47, 88%, 63%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Grey: hsl(0, 0%, 50%);
+    --color-Black: hsl(0, 0%, 7%);
+}
+
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: var(--color-Yellow);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    padding:1rem;
+    text-size-adjust: none;
+}
+.svg {
+    max-width: 100%;
+    border-radius: 1rem;
+    
+}
+main {
+    background-color: var(--color-White);
+    padding : 1.5rem;
+    max-width: 340px;
+    height: auto;
+    outline  : 1px solid var(--color-Black);
+    border-radius: 1.35rem;
+    box-shadow: 0.5rem 0.5rem var(--color-Black);
+    margin: 1rem;
+}
+.learning{
+    background-color: var(--color-Yellow);
+    padding: 0.50rem;
+    font-weight: 800;
+    font-style: bold;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    width : min-content;
+}
+.Published_date{
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: var(--color-Grey);
+}
+.author{
+    display: flex;
+    gap : 1em;
+    align-items: center;
+}
+h1{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-Black)
+    line-height: 1;
+    cursor : pointer;
+    caret-color: var(--color-blackð);
+}
+h1:hover{
+    color : var(--color-Yellow);
+}
+.description {
+    font-weight: 500;
+    color: var(--color-Grey);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.author{
+    margin-top: 1rem;
+}
