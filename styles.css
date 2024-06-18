@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree" sans-serif;
     background-color: var(--color-Yellow);
     display: grid;
     place-content: center;
@@ -61,7 +61,7 @@ h1 {
     color: var(--color-Black);
     cursor : pointer;
 }
-h1::hover {
+h1:hover {
     color : var(--color-Yellow);
 }
 .description {
